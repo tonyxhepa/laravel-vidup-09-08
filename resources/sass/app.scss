@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.channel-avatar {
+    width: 100px;
+    height: 100px;
+    border: 1px solid  rgba(0,0,0,0.125);
+}
+.channel-avatar:hover {
+    background-color: #1b4b72;
+    cursor: pointer;
+}
+
